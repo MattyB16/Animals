@@ -4,7 +4,12 @@ public class Main {
 
     public static void main(String[] args){
 
-        System.out.println("Hello World!");
+        Koala koala = new Koala();
+
+        koala.setAge(16);
+
+        System.out.println(koala.getAge());
+
 
     }
 }
