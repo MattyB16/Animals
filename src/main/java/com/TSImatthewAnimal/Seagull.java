@@ -1,4 +1,4 @@
 package com.TSImatthewAnimal;
 
-public class Seagull {
+public class Seagull extends Bird{
 }

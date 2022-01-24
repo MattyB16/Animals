@@ -1,4 +1,4 @@
 package com.TSImatthewAnimal;
 
-public class Human {
+public class Human extends Mammal{
 }

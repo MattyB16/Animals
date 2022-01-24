@@ -1,4 +1,7 @@
 package com.TSImatthewAnimal;
 
-public class Koala {
+public class Koala extends Mammal{
+
+
+
 }

@@ -1,6 +1,6 @@
 package com.TSImatthewAnimal;
 
-public abstract class Bird {
+public abstract class Bird extends Animal{
 
     //Attributes
 

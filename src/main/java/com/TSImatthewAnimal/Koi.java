@@ -1,4 +1,4 @@
 package com.TSImatthewAnimal;
 
-public class Koi {
+public class Koi extends Fish{
 }
