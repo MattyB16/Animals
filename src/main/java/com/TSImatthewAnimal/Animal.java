@@ -1,6 +1,6 @@
 package com.TSImatthewAnimal;
 
-public abstract class Animal {
+public class Animal {
 
     //Attributes
     private int age;
@@ -14,6 +14,15 @@ public abstract class Animal {
 
 
     //Methods
+
+    public int setAge(int newAge){
+
+        age= newAge;
+
+        return age;
+
+
+    }
 
 
 }
