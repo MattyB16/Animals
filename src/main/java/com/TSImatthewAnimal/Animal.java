@@ -5,7 +5,7 @@ public abstract class Animal {
     //Attributes
     private int age;
     private String name;
-    private String gender;
+
 
 
     //Constructors
@@ -33,20 +33,6 @@ public abstract class Animal {
 
         return name;
     }
-
-    public void setGender(String newGender){
-
-        gender= newGender;
-
-    }
-
-    public String getGender(){
-
-        return gender;
-    }
-
-
-
 
 }
 

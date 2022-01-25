@@ -1,6 +1,5 @@
 package TSImatthewAnimal.test;
 
-import com.TSImatthewAnimal.Animal;
 import com.TSImatthewAnimal.ClownFish;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +10,7 @@ public class ClownFishTest {
     @Test
     void age_test() {
 
-        Animal c = new ClownFish();
+        ClownFish c = new ClownFish();
         c.setAge(16);
         assertEquals(c.getAge(), 16, "Wrong age.");
 
@@ -20,7 +19,7 @@ public class ClownFishTest {
     @Test
     void name_test() {
 
-        Animal testAnimal_c = new ClownFish();
+        ClownFish testAnimal_c = new ClownFish();
         testAnimal_c.setName("Nemo");
         assertEquals(testAnimal_c.getName(), "Nemo", "That's not his or her name.");
 
@@ -28,7 +27,7 @@ public class ClownFishTest {
     @Test
     void gender_test() {
 
-        Animal testAnimal_c = new ClownFish();
+        ClownFish testAnimal_c = new ClownFish();
         testAnimal_c.setGender("Both");
         assertEquals(testAnimal_c.getGender(), "Both", "That's not the right gender.");
 
