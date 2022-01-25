@@ -9,31 +9,31 @@ public class KoalaTest {
 
 
     @Test
-    void age_test() {
+    public void testAge() {
 
         Koala k = new Koala();
         k.toString();
         k.setAge(16);
-        assertEquals(k.getAge(), 16, "Wrong age");
+        assertEquals(16, k.getAge(), "Wrong age");
 
     }
 
     @Test
-    void name_test() {
+    public void testName() {
 
         Koala testAnimal_k = new Koala();
         testAnimal_k.setName("Pongy");
-        assertEquals(testAnimal_k.getName(), "Pongy", "That's not his or her name");
+        assertEquals("Pongy",testAnimal_k.getName(),  "That's not his or her name");
 
 
 
     }
     @Test
-    void gender_test() {
+    public void testGender() {
 
         Koala testAnimal_k = new Koala();
         testAnimal_k.setGender("Male");
-        assertEquals(testAnimal_k.getGender(), "Male", "Wrong Gender");
+        assertEquals("Male",testAnimal_k.getGender(),  "Wrong Gender");
 
     }
 

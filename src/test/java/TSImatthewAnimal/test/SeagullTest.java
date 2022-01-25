@@ -8,56 +8,56 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SeagullTest {
 
     @Test
-    void age_test() {
+    public void testAge() {
 
         Seagull s = new Seagull();
         s.setAge(16);
-        assertEquals(s.getAge(), 16, "Wrong age.");
+        assertEquals(16,s.getAge(),  "Wrong age.");
 
     }
 
     @Test
-    void name_test() {
+    public void testName() {
 
         Seagull testAnimal_s = new Seagull();
         testAnimal_s.setName("Guss");
-        assertEquals(testAnimal_s.getName(), "Guss", "That's not his or her name.");
+        assertEquals( "Guss", testAnimal_s.getName(), "That's not his or her name.");
 
     }
 
     @Test
-    void gender_test() {
+    public void testGender() {
 
         Seagull testAnimal_s = new Seagull();
         testAnimal_s.setGender("Female");
-        assertEquals(testAnimal_s.getGender(), "Female", "That's not right gender.");
+        assertEquals("Female",testAnimal_s.getGender(),  "That's not right gender.");
 
     }
 
     @Test
-    void take_off_test() {
+    public void testTakeOff() {
 
         Seagull testAnimal_s = new Seagull();
         testAnimal_s.takeoff();
-        assertEquals(testAnimal_s.takeoff(),"Take off method involves jumping with a large flap.","Incorrect Take off Method.");
+        assertEquals("Take off method involves jumping with a large flap.",testAnimal_s.takeoff(),"Incorrect Take off Method.");
 
     }
 
     @Test
-    void flight_test() {
+    public void testFlight() {
 
         Seagull testAnimal_s = new Seagull();
         testAnimal_s.flight();
-        assertEquals(testAnimal_s.flight(),"Flight method is wings flapping to rise and gliding to fall.","Incorrect Flight Method.");
+        assertEquals("Flight method is wings flapping to rise and gliding to fall.",testAnimal_s.flight(),"Incorrect Flight Method.");
 
     }
 
     @Test
-    void landing_test() {
+    public void testLanding() {
 
         Seagull testAnimal_s = new Seagull();
         testAnimal_s.landing();
-        assertEquals(testAnimal_s.landing(),"Landing method involves holding wings wide to slow decent and landing on feet.","Incorrect Landing Method.");
+        assertEquals("Landing method involves holding wings wide to slow decent and landing on feet.",testAnimal_s.landing(),"Incorrect Landing Method.");
 
     }
 

@@ -8,29 +8,29 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class KoiTest {
 
     @Test
-    void age_test() {
+    public void testAge() {
 
         Koi ko = new Koi();
         ko.setAge(16);
-        assertEquals(ko.getAge(), 16, "Wrong age.");
+        assertEquals(16,ko.getAge(),  "Wrong age.");
 
     }
 
     @Test
-    void name_test() {
+    public void testName() {
 
         Koi testAnimal_ko = new Koi();
         testAnimal_ko.setName("Kraig");
-        assertEquals(testAnimal_ko.getName(), "Kraig", "That's not his or her name.");
+        assertEquals("Kraig",testAnimal_ko.getName(),  "That's not his or her name.");
 
     }
 
     @Test
-    void gender_test() {
+    public void testGender() {
 
         Koi testAnimal_ko = new Koi();
         testAnimal_ko.setGender("Female");
-        assertEquals(testAnimal_ko.getGender(), "Female", "That's not right gender.");
+        assertEquals("Female",testAnimal_ko.getGender(),  "That's not right gender.");
 
     }
 }
