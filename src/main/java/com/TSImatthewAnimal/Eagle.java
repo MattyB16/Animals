@@ -1,4 +1,4 @@
 package com.TSImatthewAnimal;
 
-public class Eagle {
+public class Eagle extends Bird {
 }
