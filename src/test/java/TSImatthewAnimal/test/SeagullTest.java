@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SeagullTest {
 
-
     @Test
     void age_test() {
 
