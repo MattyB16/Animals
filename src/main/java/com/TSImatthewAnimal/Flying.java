@@ -2,8 +2,8 @@ package com.TSImatthewAnimal;
 
 public interface Flying {
 
-    void takeoff();
-    void landing();
+    String takeoff();
+    String landing();
     String flight();
 
 
