@@ -23,7 +23,7 @@ public class EagleTest {
         Animal testAnimal_e = new Eagle();
         testAnimal_e.setName("Bald");
         assertEquals(testAnimal_e.getName(), "Bald", "That's not his or her name");
-        
+
 
     }
 }

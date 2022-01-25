@@ -13,24 +13,26 @@ public class Main {
         ClownFish clownFish = new ClownFish();
         Koi koi = new Koi();
 
-
         koala.setAge(16);
-        human.setAge(42);
+        human.setAge(22);
         seagull.setAge(34);
         eagle.setAge(3);
         clownFish.setAge(4);
         koi.setAge(100);
 
-        System.out.println(koala.getAge());
-        System.out.println(human.getAge());
-        System.out.println(seagull.getAge());
-        System.out.println(eagle.getAge());
-        System.out.println(clownFish.getAge());
-        System.out.println(koi.getAge());
-
         koala.setName("Pongy");
+        human.setName("Matthew");
+        seagull.setName("Guss");
+        eagle.setName("Bald");
+        clownFish.setName("Nemo");
+        koi.setName("Kraig");
 
-        System.out.println(koala.getName());
+        System.out.println(koala.getName() + " " + koala.getAge());
+        System.out.println(human.getName() + " " + human.getAge());
+        System.out.println(seagull.getName() + " " + seagull.getAge());
+        System.out.println(eagle.getName() + " " + eagle.getAge());
+        System.out.println(clownFish.getName() + " " + clownFish.getAge());
+        System.out.println(koi.getName() + " " + koi.getAge());
 
 
 

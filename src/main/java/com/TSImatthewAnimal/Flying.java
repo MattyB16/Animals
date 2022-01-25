@@ -4,7 +4,7 @@ public interface Flying {
 
     void takeoff();
     void landing();
-    void flight();
+    String flight();
 
 
 }

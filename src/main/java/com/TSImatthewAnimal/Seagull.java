@@ -6,9 +6,9 @@ public class Seagull extends Bird implements Flying{
 
     }
 
-    public void flight(){
+    public String flight(){
 
-        System.out.println("Flight method is wings flapping to rise and gliding to fall.");
+        return "Flight method is wings flapping to rise and gliding to fall.";
 
     }
     public void landing(){

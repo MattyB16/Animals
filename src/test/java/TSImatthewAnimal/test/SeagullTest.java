@@ -1,6 +1,7 @@
 package TSImatthewAnimal.test;
 
 import com.TSImatthewAnimal.Animal;
+import com.TSImatthewAnimal.Flying;
 import com.TSImatthewAnimal.Seagull;
 import org.junit.jupiter.api.Test;
 
@@ -24,6 +25,15 @@ public class SeagullTest {
         Animal testAnimal_s = new Seagull();
         testAnimal_s.setName("Guss");
         assertEquals(testAnimal_s.getName(), "Guss", "That's not his or her name");
+
+    }
+
+    @Test
+    void flight_test() {
+
+        Seagull testAnimal_s = new Seagull();
+        testAnimal_s.flight();
+        assertEquals(testAnimal_s.flight(),"Flight method is wings flapping to rise and gliding to fall.","Incorrect Flight Method.");
 
     }
 
