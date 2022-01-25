@@ -13,7 +13,7 @@ public class HumanTest {
 
         Animal h = new Human();
         h.setAge(22);
-        assertEquals(h.getAge(), 22, "Wrong age");
+        assertEquals(h.getAge(), 22, "Wrong age.");
 
     }
 
@@ -22,9 +22,15 @@ public class HumanTest {
 
         Animal testAnimal_h = new Human();
         testAnimal_h.setName("Matthew");
-        assertEquals(testAnimal_h.getName(), "Matthew", "That's not his or her name");
+        assertEquals(testAnimal_h.getName(), "Matthew", "That's not his or her name.");
 
+    }
 
+    @Test
+    void gender_test() {
 
+        Animal testAnimal_h = new Human();
+        testAnimal_h.setGender("Male");
+        assertEquals(testAnimal_h.getGender(), "Male", "That's not right gender.");
     }
 }

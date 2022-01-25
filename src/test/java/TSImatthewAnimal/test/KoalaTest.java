@@ -27,4 +27,16 @@ public class KoalaTest {
 
 
     }
+    @Test
+    void gender_test() {
+
+        Animal testAnimal_k = new Koala();
+        testAnimal_k.setGender("Male");
+        assertEquals(testAnimal_k.getGender(), "Male", "Wrong Gender");
+
+    }
+
+
+
+
 }

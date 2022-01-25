@@ -33,6 +33,21 @@ public abstract class Animal {
 
         return name;
     }
+
+    public void setGender(String newGender){
+
+        gender= newGender;
+
+    }
+
+    public String getGender(){
+
+        return gender;
+    }
+
+
+
+
 }
 
 
