@@ -13,7 +13,7 @@ public class KoiTest {
 
         Animal ko = new Koi();
         ko.setAge(16);
-        assertEquals(ko.getAge(), 16, "Wrong age");
+        assertEquals(ko.getAge(), 16, "Wrong age.");
 
     }
 
@@ -22,9 +22,16 @@ public class KoiTest {
 
         Animal testAnimal_ko = new Koi();
         testAnimal_ko.setName("Kraig");
-        assertEquals(testAnimal_ko.getName(), "Kraig", "That's not his or her name");
+        assertEquals(testAnimal_ko.getName(), "Kraig", "That's not his or her name.");
 
+    }
 
+    @Test
+    void gender_test() {
+
+        Animal testAnimal_ko = new Koi();
+        testAnimal_ko.setGender("Female");
+        assertEquals(testAnimal_ko.getGender(), "Female", "That's not right gender.");
 
     }
 }

@@ -23,7 +23,14 @@ public class EagleTest {
         Animal testAnimal_e = new Eagle();
         testAnimal_e.setName("Bald");
         assertEquals(testAnimal_e.getName(), "Bald", "That's not his or her name");
-
-
     }
+
+    @Test
+    void gender_test() {
+
+        Animal testAnimal_e = new Eagle();
+        testAnimal_e.setGender("Female");
+        assertEquals(testAnimal_e.getGender(), "Female", "That's not the right Gender.");
+    }
+
 }
